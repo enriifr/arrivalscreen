@@ -7,7 +7,7 @@ window.onload = function() {
   }
   
   function updateTableData() {
-    const url = 'https://enriifr.github.io/arrivalscreen/flight-data.txt';
+    const url = 'https://enriifr.github.io/arrivalscreen/flights.txt';
     const cacheBuster = `?v=${new Date().getTime()}`;
     const fetchUrl = url + cacheBuster;
   
