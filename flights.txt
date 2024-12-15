@@ -17,12 +17,12 @@ Landed (20:56)
 WIZZAIR.PNG
 W6 11232
 LONDON GATWICK
-Landed in BERLIN. Refer to Information Desk
+Landed (21:58)
 21:34
 AMERICAN.PNG
 AA 231
 MIAMI INTL.
-ETA: 21:10
+Landed (21:09)
 22:00
 ITA.PNG
 AZ 51
@@ -37,7 +37,7 @@ Canceled
 RYANAIR.PNG
 FR 88110
 TIRANA
-Not Yet Departed
+Departed TIRANA (22:22)
 01:33
 EMIRATES.PNG
 EK 2928
