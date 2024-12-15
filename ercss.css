@@ -1,4 +1,5 @@
 body {
+    margin: 0px;
     background-color: #241571;
 }
 
@@ -9,6 +10,13 @@ h1.maintxt{
     padding-left: 10px;
 }
 
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
 #italian{
     color:aliceblue;
     font-weight: bolder;
@@ -16,11 +24,11 @@ h1.maintxt{
 #time{
     text-align: right;
     color: aliceblue;
+    margin-left: auto;
 }
 #english{
     color: gold;
     font-weight: lighter;
-    padding-right: 63%;
 }
 
 .arr_logo{
