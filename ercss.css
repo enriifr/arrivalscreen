@@ -1,0 +1,108 @@
+body {
+    background-color: #241571;
+}
+
+h1.maintxt{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+    font-size: 48px;
+    padding-left: 10px;
+}
+
+#italian{
+    color:aliceblue;
+    font-weight: bolder;
+}
+
+#english{
+    color: gold;
+    font-weight: lighter;
+}
+
+.arr_logo{
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+
+.arr_logo img{
+    display: block;
+}
+
+.separator{
+    border: none;
+    border-top: 5px solid #151e3d;
+    margin: 0px 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 3px;
+}
+
+th{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 24px;
+}
+
+tr.one{
+    background-color: #151e3d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: aliceblue;
+    font-size: 24px;
+}
+
+tr.two{
+    background-color: #241571;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.airline{
+    display: inline-block;
+    margin-bottom: -6px;
+}
+
+.ok{
+    width: 24px;
+    height: 24px;
+    background-color: lime;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-left: 10px;
+}
+
+.late{
+    width: 24px;
+    height: 24px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-left: 10px;
+}
+
+.verylate{
+    width: 24px;
+    height: 24px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-left: 10px;
+}
