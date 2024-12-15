@@ -13,10 +13,14 @@ h1.maintxt{
     color:aliceblue;
     font-weight: bolder;
 }
-
+#time{
+    text-align: right;
+    color: aliceblue;
+}
 #english{
     color: gold;
     font-weight: lighter;
+    padding-right: 63%;
 }
 
 .arr_logo{

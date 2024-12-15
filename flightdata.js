@@ -11,13 +11,13 @@ window.onload = function() {
     const cacheBuster = `?v=${new Date().getTime()}`;
     const fetchUrl = url + cacheBuster;
   
-    fetch(url)
+    fetch(fetchUrl)
       .then(response => response.text())
       .then(data => {
         const dataLines = data.split('\n');
   
         for (let i = 0; i < 10; i++) {
-          const flightIndex = i * 5; // Each flight has 5 lines of data in the text file
+          const flightIndex = i*5; // Each flight has 5 lines of data in the text file
           
           // Update text content for each flight (assuming data is structured in blocks of 5 lines per flight)
           document.getElementById(`flight${i + 1}data1`).textContent = dataLines[flightIndex];
