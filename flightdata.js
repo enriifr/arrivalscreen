@@ -3,11 +3,13 @@ window.onload = function() {
   }
   
   function startUpdating() {
-    setInterval(updateTableData, 10000);
+    setInterval(updateTableData, 1000);
   }
   
   function updateTableData() {
-    const url = 'https://drive.google.com/uc?export=download&id=1i_loySNrtzVijcnIafp2ODAhMdOLc1iN';
+    const url = 'https://enriifr.github.io/arrivalscreen/flight-data.txt';
+    const cacheBuster = `?v=${new Date().getTime()}`;
+    const fetchUrl = url + cacheBuster;
   
     fetch(url)
       .then(response => response.text())
